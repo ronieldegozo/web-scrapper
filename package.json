@@ -1,0 +1,27 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronieldegozo/web-scrapper.git"
+  },
+  "author": "Mc Roniel De Gozo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronieldegozo/web-scrapper/issues"
+  },
+  "homepage": "https://github.com/ronieldegozo/web-scrapper#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}

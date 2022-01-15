@@ -26,4 +26,4 @@ app.use(error404.get404);
 //ports
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
-});
+}); 

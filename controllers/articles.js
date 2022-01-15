@@ -36,3 +36,9 @@ exports.getArticles = async (req, res) => {
     }
 
 };
+
+exports.getCategoryData = async (req, res) => {
+    res.status(201).json({
+        status: 'Category data fetched',
+    });
+};
